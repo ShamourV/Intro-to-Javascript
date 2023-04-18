@@ -21,6 +21,6 @@ if (percentage <= 100 && percentage >= 80 ) {
 }
 let myList = (DragonBall, Naruto, OnePiece)
 for (let item of myList) {
-    
+    r
 }
 
