@@ -7,14 +7,16 @@
     <title>Document</title>
     <link rel="stylesheet" href="stopwatch.css">
     <script type="text/javascript" src="https://unpkg.com/real-turtle"></script>
-    <script type="text/javascript" src="stopwatch.js"></script>
-    <script type="text/javascript" src="stopwatch.css"></script>
+
 </head>
 <body>
 <h1>Stopwatch</h1>
 <hr>
-<h2>00:00:00</h2>
-<id><button>Start</button></id> <id><button>Reset</button></id><id><button>Stop</button></id>
+<h2 id="digits">00:00:00</h2>
+<button onclick="start()"id="start-btn">Start</button>
+<button onclick="Reset()">Reset</button>
+<button onclick="Stop()">Stop</button>
 
+<script src="stopwatch.js"></script>
 </body>
 </html>
